@@ -1,0 +1,9 @@
+Python:
+
+Send GET data to 'JSON_Data/get_data.txt'
+Read POST data from 'JSON_Data/post_data/txt'
+
+Javascript:
+
+Read GET data from 'JSON_Data/get_data.txt' and display it on HTML page
+Read from HTML form and send POST data to 'JSON_Data/post_data.txt' 

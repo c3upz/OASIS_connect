@@ -1,0 +1,24 @@
+pip3 install requests
+pip3 install firebase
+pip3 install python-firebase
+pip3 install python_jwt
+pip3 install sseclient
+pip3 install pycrypto 
+pip3 install requests-toolbelt
+pip3 install flask
+pip3 install flask flask-wtf
+
+
+<script type = "text/javascript">
+                function getData(){
+                    var response = JSON.parse(data);
+                    console.log(response.firstName);
+                }
+            </script>
+
+
+
+https://www.jitsejan.com/python-and-javascript-in-flask.html
+
+
+https://brython.info/static_doc/en/brython-packages.html
