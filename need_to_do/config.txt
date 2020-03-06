@@ -1,6 +1,6 @@
 """
   var firebaseConfig = {
-    apiKey: "AIzaSyDcSAovQgYc5QrVPys2OqUp6t967ic7pHI",
+    apiKey: "classified",
     authDomain: "oasis-initiative.firebaseapp.com",
     databaseURL: "https://oasis-initiative.firebaseio.com",
     projectId: "oasis-initiative",
