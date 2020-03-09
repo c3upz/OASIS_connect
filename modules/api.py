@@ -25,9 +25,9 @@ firebase = firebase.FirebaseApplication(URL)
 def GET_sendJSON_to_outfile(result):
   try:
     myJson = json.dumps(result, indent=4)
-    print("JSON GET Method", myJson, "\n===================================")
+    #print("JSON GET Method", myJson, "\n===================================")
 
-    with open('JSON_Data/get_data.txt', 'w') as outfile:
+    with open('test.txt', 'w') as outfile: #wtf is this doing lol
         json.dump(data, outfile)
 
   except json.JSONDecodeError as err:

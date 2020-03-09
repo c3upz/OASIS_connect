@@ -1,0 +1,41 @@
+#resultCard {
+  background-color: lightsteelblue;
+  color: black;
+  padding: 2%;
+  margin: 10px;
+}
+
+header {
+  display: inline;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+#backButton {
+  font-size: medium;
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightsteelblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:hover {
+  background-color: steelblue;
+}
+
+.button:active {
+  background-color: steelblue;
+}

@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  /* display: flex;
+  flex-direction: column; */
+  text-align: center;
+}
+
+header {
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+#newUserButton {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 12px;
+}
+
+#searchForm {
+  padding-top: 10%;
+}
+
+#searchbox {
+  width: 50%;
+  /* height: 200%; */
+  font-size: large;
+}
+
+#submitButton {
+  font-size: large;
+  padding: 1%;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: lightsteelblue;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  padding: 10px;
+  width: 120px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover {
+  background-color: steelblue;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.searchButton {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: lightsteelblue;
+  border: none;
+  border-radius: 10px;
+}
+
+.searchButton:hover {
+  background-color: steelblue;
+}
+
+.searchButton:active {
+  background-color: steelblue;
+}

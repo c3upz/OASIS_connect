@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>OASIS-Network Homepage</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type=text/css href="{{ url_for('static',filename='styles/index.css') }}">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>OASIS-Network</h1>
+        <button id="newUserButton" class="button"
+            onclick="window.location.href = 'https://docs.google.com/forms/d/1uyUnHxLkUQWFygOucrCf-tYvRS4cGHLaIRvMPSBui7c/edit'">
+            <span>New User?</span>
+        </button>
+    </header>
+
+
+
+    <form action="/result" name="search" id="searchForm" methods="POST">
+        <select name="spreadsheetDropDown" id="spreadsheetDropDown">
+            <option value="Fellows">Fellows</option>
+            <option value="Mentor">Mentors</option>
+            <option value="Facilitators">Facilitators</option>
+        </select>
+        <select name="dateDropDown" id="dateDropDown">
+            <option value="0">-</option>
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+            <option value="2019">2019</option>
+            <option value=2020>2020</option>
+        </select>
+        <input type="text" name="searchbox" id="searchbox" placeholder="Search Here">
+        <!-- <input type="submit" id="submitButton" name="submitAction" value="search"> -->
+        <button type="submit" class="searchButton" value="search"><span>Search</span></button>
+    </form>
+
+
+    <div>
+
+    </div>
+
+</html>
