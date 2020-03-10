@@ -38,7 +38,7 @@ def results():
     #searchInput is an array of the search terms the user has inputed
     searchInput = [typeSearch,  dateSearch, '']
     myJSON = api.GET_REQUEST(spreadsheetSelection) #loads the spreadsheet data for given spreadsheet
-    myOut = algos.search_function(myJSON, searchInput) #output after data was compared to search terms
+    myOut = algos.search_function(myJSON, searchInput) #output after data was compared to search terms 
     #print(myOut)  # prints the array of ppl that it is returning
     return render_template('results.html', myJSON=myOut)
 
