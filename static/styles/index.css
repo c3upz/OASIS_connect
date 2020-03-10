@@ -1,13 +1,13 @@
+/* setting defaults for document */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Helvetica;
 }
 
+/* aligning the content of the document in the center */
 body {
-  /* display: flex;
-  flex-direction: column; */
   text-align: center;
 }
 
@@ -17,7 +17,25 @@ header {
   padding-top: 15px;
 }
 
+h1 {
+  padding-top: 5%;
+  font-size: xxx-large;
+}
 
+/* changing to size of the dropdown menu buttons and dropdown menu items */
+select {
+  height: 35px;
+  font-size: medium;
+}
+
+/* had to add padding to the right of the spreadsheetDropDown so the text did not 
+      overlap with right side edge */
+#spreadsheetDropDown {
+  width: fit-content;
+  padding-right: 4px;
+}
+
+/* making the new user button stay in the upper right hand corner */
 #newUserButton {
   position: absolute;
   right: 0;
@@ -26,11 +44,12 @@ header {
 }
 
 #searchForm {
-  padding-top: 10%;
+  padding-top: 7%;
 }
 
 #searchbox {
   width: 50%;
+  height: 35px;
   /* height: 200%; */
   font-size: large;
 }
@@ -40,6 +59,8 @@ header {
   padding: 1%;
 }
 
+/* creating animation for new user button.. I want to do this becuase I want to add a 
+      signifier that the user will be leaving the page */
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -84,6 +105,7 @@ header {
   right: 0;
 }
 
+/* making the search button change colors on hover (3 stage animation) */
 .searchButton {
   display: inline-block;
   padding: 10px 15px;
