@@ -48,8 +48,8 @@ def POST_REQUEST(category, data):
 # temporarily created POST data
 data = {
   'ID': 22,
-  'Name': 'Chris the Gerb',
-  'Email': 'chris@gerbles.com',
+  'Name': 'testuser',
+  'Email': 'testuser@g.com',
   'Phone': 123-456-7890
 }
 # USAGE: POST_REQUEST('Prototype', data)
